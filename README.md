@@ -1,5 +1,5 @@
 # shell-data-processing
-#### Some useful powershell command
+#### *Some useful powershell command*
 ```powershell
 cd \\ navigation
 rm \\deleting folders
@@ -15,7 +15,7 @@ ni \\ creating new items
 ```bash
 tr ' ' '\12'filetoREad.txt | sort
 ```
--Redirecting output to result
+- *Redirecting output to result*
 ```bash
 tr ' ' '\12' <file.txt | sort | uniq -c | sort -nr > result.txt
 ```
